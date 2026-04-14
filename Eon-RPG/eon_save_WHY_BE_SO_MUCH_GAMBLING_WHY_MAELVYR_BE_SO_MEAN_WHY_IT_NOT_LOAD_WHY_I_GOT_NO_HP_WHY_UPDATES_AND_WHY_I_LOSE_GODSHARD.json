@@ -1,0 +1,3420 @@
+{
+  "name": "WHY BE SO MUCH GAMBLING, WHY MAELVYR BE SO MEAN, WHY IT NOT LOAD, WHY I GOT NO HP, WHY UPDATES AND WHY I LOSE GODSHARD?!",
+  "max_hp": 30,
+  "hp": 30,
+  "attack": 6,
+  "defence": 2,
+  "gold": 0,
+  "poisoned": false,
+  "cursed": false,
+  "void_ward": false,
+  "visited_rooms": 2,
+  "depth": 0,
+  "descent": 1,
+  "inventory": [
+    {
+      "name": "Voidforged Sword",
+      "type": "weapon",
+      "value": 16,
+      "description": "Forged in something other than fire. The metal is black and does not reflect light. It is heavier than it looks and lighter than it should be."
+    },
+    {
+      "name": "Chain Vest",
+      "type": "armour",
+      "value": 4,
+      "description": "Rings of iron, well-kept."
+    },
+    {
+      "name": "Health Potion",
+      "type": "consumable",
+      "value": 15,
+      "description": "Restores 15 HP."
+    },
+    {
+      "name": "Morvath Eye",
+      "type": "relic",
+      "value": 0,
+      "description": "Preserved in something clear and cold. Fully black. Looking into it is inadvisable. Grants immunity to fear effects.",
+      "relic_effect": {
+        "type": "fear_immune",
+        "value": 1
+      }
+    },
+    {
+      "name": "Veythari Feather",
+      "type": "relic",
+      "value": 0,
+      "description": "Silver-white. Holds its own faint light. Lighter than it should be. Increases maximum HP by 8.",
+      "relic_effect": {
+        "type": "max_hp",
+        "value": 8
+      }
+    },
+    {
+      "name": "Honey Flask",
+      "type": "food",
+      "value": 8,
+      "description": "Sealed wax flask of something golden. The bees that made this are no longer alive. Restores 8 HP and cures poison.",
+      "food_effect": {
+        "hp": 8,
+        "cure_poison": true
+      }
+    },
+    {
+      "name": "Iron Key",
+      "type": "key",
+      "value": 0,
+      "description": "Heavy iron. Teeth worn smooth. Opens something down here."
+    }
+  ],
+  "equipped_weapon": null,
+  "equipped_armour": null,
+  "equipped_relic": null,
+  "flags": [
+    "captain_employer",
+    "captain_status",
+    "met_seeker_captain",
+    "spoke_maelvyr_shrine"
+  ],
+  "secrets_spoken": [
+    "maelvyr"
+  ],
+  "purchased_uniques": [],
+  "dungeon_pos": [
+    6,
+    1,
+    0
+  ],
+  "dungeon": {
+    "entrance": [
+      5,
+      2,
+      0
+    ],
+    "seed": 2785383,
+    "rooms": {
+      "5,2,0": {
+        "pos": [
+          5,
+          2,
+          0
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            5,
+            1,
+            0
+          ],
+          "east": null,
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Shrine of Eon",
+          "description": "A stone altar: a serpent devouring its own tail. Candles burn without wax. The air is warm and patient.",
+          "special_event": "shrine",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": true,
+        "sealed": false,
+        "completed": false,
+        "state": {
+          "_event_fired": true,
+          "_shrine_used": 2
+        }
+      },
+      "5,1,0": {
+        "pos": [
+          5,
+          1,
+          0
+        ],
+        "exits": {
+          "north": [
+            5,
+            2,
+            0
+          ],
+          "south": null,
+          "east": [
+            6,
+            1,
+            0
+          ],
+          "west": null,
+          "down": [
+            4,
+            0,
+            1
+          ],
+          "up": null
+        },
+        "room_def": {
+          "name": "Staircase",
+          "description": "Stone steps descend into the next level of the ruins. The air below is colder, or older, or both.",
+          "special_event": null,
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": true,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "6,1,0": {
+        "pos": [
+          6,
+          1,
+          0
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            6,
+            0,
+            0
+          ],
+          "east": null,
+          "west": [
+            5,
+            1,
+            0
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Shard-Seeker Captain",
+          "description": "A mercenary — better equipped than the others — reading. Not reaching for a weapon.",
+          "special_event": "seeker_captain",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": true,
+        "sealed": false,
+        "completed": false,
+        "state": {
+          "_event_fired": true,
+          "_captain_asked": {
+            "__set__": true,
+            "values": [
+              "employer",
+              "status",
+              "trade"
+            ]
+          }
+        }
+      },
+      "6,0,0": {
+        "pos": [
+          6,
+          0,
+          0
+        ],
+        "exits": {
+          "north": [
+            6,
+            1,
+            0
+          ],
+          "south": null,
+          "east": null,
+          "west": [
+            5,
+            0,
+            0
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Mirrored Ceiling",
+          "description": "The ceiling is polished to reflectiveness. Looking up, you see the room below you — and a figure standing in it, looking up at you. The figure is you. The figure's room is the same as this one. The figure's expression is slightly different from yours.",
+          "special_event": null,
+          "items": [
+            {
+              "name": "Eldrosian Wine",
+              "type": "food",
+              "value": 5,
+              "description": "A sealed clay bottle. Old but not spoiled. Restores 5 HP. Briefly reduces the weight of everything.",
+              "food_effect": {
+                "hp": 5,
+                "morale": true
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "name": "Feral Hound",
+              "hp": 16,
+              "attack": 6,
+              "defence": 2,
+              "tier": 1,
+              "gold": [
+                0,
+                2
+              ],
+              "loot_chance": 0.3,
+              "loot": "Bloodmoss Tincture",
+              "death_line": "The hound drops mid-lunge.",
+              "special": null
+            }
+          ],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "5,0,0": {
+        "pos": [
+          5,
+          0,
+          0
+        ],
+        "exits": {
+          "north": null,
+          "south": null,
+          "east": [
+            6,
+            0,
+            0
+          ],
+          "west": [
+            4,
+            0,
+            0
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Counting Room",
+          "description": "Someone has been in this room for a very long time, counting things. The walls are covered in tally marks, arranged in groups. In the corner: a fresh mark, made recently, in dust.",
+          "special_event": null,
+          "items": [
+            {
+              "name": "Dried Cave Mushroom",
+              "type": "food",
+              "value": 3,
+              "description": "Found growing in the dark. Bitter. Safe, probably. Restores 3 HP. Has a faint glow that persists for some time.",
+              "food_effect": {
+                "hp": 3,
+                "glow": true
+              }
+            },
+            {
+              "name": "Hollow Coin",
+              "type": "relic",
+              "value": 0,
+              "description": "An Eldrosian coin with a hole drilled precisely through the centre. Looking through the hole at people shows what they are afraid of. Increases flee chance by 25%.",
+              "relic_effect": {
+                "type": "flee_bonus",
+                "value": 0.25
+              }
+            }
+          ],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "4,0,0": {
+        "pos": [
+          4,
+          0,
+          0
+        ],
+        "exits": {
+          "north": null,
+          "south": null,
+          "east": [
+            5,
+            0,
+            0
+          ],
+          "west": [
+            3,
+            0,
+            0
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Merchant's Alcove",
+          "description": "A weathered merchant sits cross-legged on a rolled mat. His eyes are the wrong colour.",
+          "special_event": "merchant",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "3,0,0": {
+        "pos": [
+          3,
+          0,
+          0
+        ],
+        "exits": {
+          "north": null,
+          "south": null,
+          "east": [
+            4,
+            0,
+            0
+          ],
+          "west": [
+            2,
+            0,
+            0
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Broken Altar",
+          "description": "An altar split clean in two by force. Between the halves: a sealed cavity in the stone base.",
+          "special_event": "broken_altar",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "2,0,0": {
+        "pos": [
+          2,
+          0,
+          0
+        ],
+        "exits": {
+          "north": [
+            2,
+            1,
+            0
+          ],
+          "south": null,
+          "east": [
+            3,
+            0,
+            0
+          ],
+          "west": null,
+          "down": [
+            4,
+            2,
+            1
+          ],
+          "up": null
+        },
+        "room_def": {
+          "name": "Staircase",
+          "description": "Stone steps descend into the next level of the ruins. The air below is colder, or older, or both.",
+          "special_event": null,
+          "items": [
+            {
+              "name": "Clarity Draught",
+              "type": "consumable",
+              "value": 0,
+              "description": "Clears the mind. Removes curses."
+            },
+            {
+              "name": "Morvath Eye",
+              "type": "relic",
+              "value": 0,
+              "description": "Preserved in something clear and cold. Fully black. Looking into it is inadvisable. Grants immunity to fear effects.",
+              "relic_effect": {
+                "type": "fear_immune",
+                "value": 1
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "name": "Animated Skeleton",
+              "hp": 18,
+              "attack": 5,
+              "defence": 3,
+              "tier": 1,
+              "gold": [
+                0,
+                3
+              ],
+              "loot_chance": 0.5,
+              "loot": "Iron Key",
+              "death_line": "The bones clatter apart. Silence returns.",
+              "special": null
+            }
+          ],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "2,1,0": {
+        "pos": [
+          2,
+          1,
+          0
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            2,
+            0,
+            0
+          ],
+          "east": null,
+          "west": [
+            1,
+            1,
+            0
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Whispering Library",
+          "description": "Shelves of rotting tomes. One book lies open on a lectern, pages turning in no wind.",
+          "special_event": "library",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "1,1,0": {
+        "pos": [
+          1,
+          1,
+          0
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            1,
+            0,
+            0
+          ],
+          "east": [
+            2,
+            1,
+            0
+          ],
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Trapped Vault",
+          "description": "A heavy iron door stands ajar. Inside, glittering objects. The flagstones look wrong.",
+          "special_event": "trap_vault",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "1,0,0": {
+        "pos": [
+          1,
+          0,
+          0
+        ],
+        "exits": {
+          "north": [
+            1,
+            1,
+            0
+          ],
+          "south": null,
+          "east": null,
+          "west": [
+            0,
+            0,
+            0
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Listening Room",
+          "description": "Acoustically strange. Your footsteps sound far away. A murmur from the walls resolves, if you stand still enough, into voices. Not threatening. Not intelligible. Just present.",
+          "special_event": "listening_room",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "0,0,0": {
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "exits": {
+          "north": [
+            0,
+            1,
+            0
+          ],
+          "south": null,
+          "east": [
+            1,
+            0,
+            0
+          ],
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Handprint Chamber",
+          "description": "A single handprint on the far wall. Pressed in dark pigment. No other marking. The handprint is not human-sized — just slightly wrong in its proportions. You stay longer than you intend to.",
+          "special_event": null,
+          "items": [
+            {
+              "name": "Void Salt",
+              "type": "consumable",
+              "value": 0,
+              "description": "Black crystalline salt. Wards against draining attacks for one fight."
+            }
+          ],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "0,1,0": {
+        "pos": [
+          0,
+          1,
+          0
+        ],
+        "exits": {
+          "north": [
+            0,
+            2,
+            0
+          ],
+          "south": [
+            0,
+            0,
+            0
+          ],
+          "east": null,
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "A Warm Room",
+          "description": "The room is warm. No heat source. The warmth comes from the walls — as though the stone remembers something. It is not unpleasant. That is the most unsettling thing.",
+          "special_event": null,
+          "items": [],
+          "enemies": [
+            {
+              "name": "Tomb Rat Swarm",
+              "hp": 8,
+              "attack": 4,
+              "defence": 0,
+              "tier": 1,
+              "gold": [
+                0,
+                1
+              ],
+              "loot_chance": 0.2,
+              "loot": "Antidote",
+              "death_line": "The swarm disperses into dark cracks.",
+              "special": "poison"
+            }
+          ],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "0,2,0": {
+        "pos": [
+          0,
+          2,
+          0
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            0,
+            1,
+            0
+          ],
+          "east": [
+            1,
+            2,
+            0
+          ],
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Gambling Den",
+          "description": "Three figures around a low table. Cards and coins between them. 'Room for one more.'",
+          "special_event": "gambling_den",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "1,2,0": {
+        "pos": [
+          1,
+          2,
+          0
+        ],
+        "exits": {
+          "north": [
+            1,
+            3,
+            0
+          ],
+          "south": null,
+          "east": null,
+          "west": [
+            0,
+            2,
+            0
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Room Without a Door",
+          "description": "You turn around and the passage you came through is gone. Solid wall. One exit: forward. The wall behind you is warm and shows no seam.",
+          "special_event": null,
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "1,3,0": {
+        "pos": [
+          1,
+          3,
+          0
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            1,
+            2,
+            0
+          ],
+          "east": null,
+          "west": [
+            0,
+            3,
+            0
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Prisoner's Cell",
+          "description": "Iron bars. A thin mattress. Tally marks in the thousands. A figure that looks up.",
+          "special_event": "prisoner",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "0,3,0": {
+        "pos": [
+          0,
+          3,
+          0
+        ],
+        "exits": {
+          "north": [
+            0,
+            4,
+            0
+          ],
+          "south": null,
+          "east": [
+            1,
+            3,
+            0
+          ],
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Scorched Corridor",
+          "description": "The walls are black. The stone at the midpoint of this corridor is fused — melted and re-hardened. Something passed through here that was much hotter than fire.",
+          "special_event": null,
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "0,4,0": {
+        "pos": [
+          0,
+          4,
+          0
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            0,
+            3,
+            0
+          ],
+          "east": null,
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Archivist's Study",
+          "description": "A folding stool. Papers everywhere. Maps annotated in a scholar's hand. Someone has been here a very long time, working.",
+          "special_event": "archivist",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "2,2,1": {
+        "pos": [
+          2,
+          2,
+          1
+        ],
+        "exits": {
+          "north": null,
+          "south": null,
+          "east": [
+            3,
+            2,
+            1
+          ],
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Ossuary",
+          "description": "Bones stacked with care. Each skull has something placed in its eye sockets — all the same.",
+          "special_event": "ossuary",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "3,2,1": {
+        "pos": [
+          3,
+          2,
+          1
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            3,
+            1,
+            1
+          ],
+          "east": null,
+          "west": [
+            2,
+            2,
+            1
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Forge",
+          "description": "A forge, still burning. The coals have not been replenished in centuries and show no sign of going out. The tools are laid out as though someone has just stepped away. The bellows work on their own.",
+          "special_event": "forge",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "3,1,1": {
+        "pos": [
+          3,
+          1,
+          1
+        ],
+        "exits": {
+          "north": [
+            3,
+            2,
+            1
+          ],
+          "south": null,
+          "east": null,
+          "west": [
+            2,
+            1,
+            1
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Room of Clocks",
+          "description": "A dozen timekeeping devices of Eldrosian make, all stopped at the same moment. The hands point to a time that means nothing to you. They meant something once.",
+          "special_event": null,
+          "items": [
+            {
+              "name": "Shepherd's Hook",
+              "type": "weapon",
+              "value": 12,
+              "description": "A crook-shaped weapon taken from the Unmade Shepherd. It hums with void-resonance. Void enemies it strikes take +3 additional damage."
+            }
+          ],
+          "enemies": [
+            {
+              "name": "Giant Spider",
+              "hp": 12,
+              "attack": 5,
+              "defence": 1,
+              "tier": 1,
+              "gold": [
+                0,
+                1
+              ],
+              "loot_chance": 0.4,
+              "loot": "Antidote",
+              "death_line": "The spider curls into itself. Venom smell lingers.",
+              "special": "poison"
+            }
+          ],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "2,1,1": {
+        "pos": [
+          2,
+          1,
+          1
+        ],
+        "exits": {
+          "north": null,
+          "south": null,
+          "east": [
+            3,
+            1,
+            1
+          ],
+          "west": [
+            1,
+            1,
+            1
+          ],
+          "down": [
+            1,
+            3,
+            2
+          ],
+          "up": null
+        },
+        "room_def": {
+          "name": "Staircase",
+          "description": "Stone steps descend into the next level of the ruins. The air below is colder, or older, or both.",
+          "special_event": null,
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "1,1,1": {
+        "pos": [
+          1,
+          1,
+          1
+        ],
+        "exits": {
+          "north": [
+            1,
+            2,
+            1
+          ],
+          "south": null,
+          "east": [
+            2,
+            1,
+            1
+          ],
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Chapel of the Thrys",
+          "description": "A small chapel. Nine niches, each carved with the symbol of one of the Sera. The candles still burn. None of them have wax.",
+          "special_event": "chapel_of_thrys",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "1,2,1": {
+        "pos": [
+          1,
+          2,
+          1
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            1,
+            1,
+            1
+          ],
+          "east": null,
+          "west": [
+            0,
+            2,
+            1
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Cartographer's Station",
+          "description": "A scholar's workspace — tools for mapping, rulers, inks, partial maps of the upper ruins pinned to a large flat table. Below a certain depth, the cartographer stopped.",
+          "special_event": "cartographers_station",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "0,2,1": {
+        "pos": [
+          0,
+          2,
+          1
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            0,
+            1,
+            1
+          ],
+          "east": [
+            1,
+            2,
+            1
+          ],
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Chamber of Reflections",
+          "description": "A small square chamber where every surface is polished. The reflections are wrong. At the centre: a wooden stand, and on the stand, a mirror, face-down.",
+          "special_event": "crystal_mirror_room",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "0,1,1": {
+        "pos": [
+          0,
+          1,
+          1
+        ],
+        "exits": {
+          "north": [
+            0,
+            2,
+            1
+          ],
+          "south": [
+            0,
+            0,
+            1
+          ],
+          "east": null,
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Sealed Window",
+          "description": "A window, underground, bricked from the other side. A crack at eye level. The light through it is a pale blue-white you have no name for.",
+          "special_event": "sealed_window",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "0,0,1": {
+        "pos": [
+          0,
+          0,
+          1
+        ],
+        "exits": {
+          "north": [
+            0,
+            1,
+            1
+          ],
+          "south": null,
+          "east": [
+            1,
+            0,
+            1
+          ],
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Naming Room",
+          "description": "Every surface covered in names. New names form as you watch. The room is cataloguing the dead. It has been doing this since the Night of Collapse.",
+          "special_event": "naming_room",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "1,0,1": {
+        "pos": [
+          1,
+          0,
+          1
+        ],
+        "exits": {
+          "north": null,
+          "south": null,
+          "east": [
+            2,
+            0,
+            1
+          ],
+          "west": [
+            0,
+            0,
+            1
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Flooded Antechamber",
+          "description": "Water to ankle depth, cold and perfectly still. The reflection shows the ceiling as it was: intact arches, lit sconces, a different time. Below the surface, something catches the light.",
+          "special_event": "flooded_room",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "2,0,1": {
+        "pos": [
+          2,
+          0,
+          1
+        ],
+        "exits": {
+          "north": null,
+          "south": null,
+          "east": [
+            3,
+            0,
+            1
+          ],
+          "west": [
+            1,
+            0,
+            1
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The War Room",
+          "description": "A large table covered in a map of the city as it was — intact, radiating from a central keep. Markers. Routes. Plans never implemented.",
+          "special_event": "war_room",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "3,0,1": {
+        "pos": [
+          3,
+          0,
+          1
+        ],
+        "exits": {
+          "north": null,
+          "south": null,
+          "east": [
+            4,
+            0,
+            1
+          ],
+          "west": [
+            2,
+            0,
+            1
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Dawn Chamber",
+          "description": "A room lit by pale orange light with no source — the colour of the sky just before sunrise. On a flat stone at the far end: a small warm fragment.",
+          "special_event": "dawn_shard_room",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "4,0,1": {
+        "pos": [
+          4,
+          0,
+          1
+        ],
+        "exits": {
+          "north": [
+            4,
+            1,
+            1
+          ],
+          "south": null,
+          "east": null,
+          "west": [
+            3,
+            0,
+            1
+          ],
+          "down": null,
+          "up": [
+            5,
+            1,
+            0
+          ]
+        },
+        "room_def": {
+          "name": "Staircase",
+          "description": "Stone steps lead upward. The light above is different from the light below.",
+          "special_event": null,
+          "items": [],
+          "enemies": [
+            {
+              "name": "Tomb Rat Swarm",
+              "hp": 8,
+              "attack": 4,
+              "defence": 0,
+              "tier": 1,
+              "gold": [
+                0,
+                1
+              ],
+              "loot_chance": 0.2,
+              "loot": "Antidote",
+              "death_line": "The swarm disperses into dark cracks.",
+              "special": "poison"
+            }
+          ],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "4,1,1": {
+        "pos": [
+          4,
+          1,
+          1
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            4,
+            0,
+            1
+          ],
+          "east": [
+            5,
+            1,
+            1
+          ],
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Vault Door",
+          "description": "A chamber that exists only to contain a door. 'What the empire buried, the empire kept.'",
+          "special_event": "vault_door",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "5,1,1": {
+        "pos": [
+          5,
+          1,
+          1
+        ],
+        "exits": {
+          "north": [
+            5,
+            2,
+            1
+          ],
+          "south": null,
+          "east": null,
+          "west": [
+            4,
+            1,
+            1
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Inscription Room",
+          "description": "A perfectly preserved chamber. Every surface covered in a single looping sentence. A dish of ash at the centre.",
+          "special_event": "inscription_room",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "5,2,1": {
+        "pos": [
+          5,
+          2,
+          1
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            5,
+            1,
+            1
+          ],
+          "east": null,
+          "west": [
+            4,
+            2,
+            1
+          ],
+          "down": [
+            3,
+            4,
+            2
+          ],
+          "up": null
+        },
+        "room_def": {
+          "name": "Staircase",
+          "description": "Stone steps descend into the next level of the ruins. The air below is colder, or older, or both.",
+          "special_event": null,
+          "items": [
+            {
+              "name": "Bone Shard",
+              "type": "thrown",
+              "value": 8,
+              "description": "A sharpened fragment of something's femur. Throws for 8 damage and bleeds. Single use.",
+              "throw_damage": 8,
+              "throw_effect": "bleed"
+            }
+          ],
+          "enemies": [
+            {
+              "name": "Goblin Scavenger",
+              "hp": 14,
+              "attack": 4,
+              "defence": 1,
+              "tier": 1,
+              "gold": [
+                1,
+                4
+              ],
+              "loot_chance": 0.6,
+              "loot": "Relic Coin",
+              "death_line": "It collapses with a gurgling shriek.",
+              "special": null
+            }
+          ],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "4,2,1": {
+        "pos": [
+          4,
+          2,
+          1
+        ],
+        "exits": {
+          "north": [
+            4,
+            3,
+            1
+          ],
+          "south": null,
+          "east": [
+            5,
+            2,
+            1
+          ],
+          "west": null,
+          "down": null,
+          "up": [
+            2,
+            0,
+            0
+          ]
+        },
+        "room_def": {
+          "name": "Staircase",
+          "description": "Stone steps lead upward. The light above is different from the light below.",
+          "special_event": null,
+          "items": [
+            {
+              "name": "Dried Cave Mushroom",
+              "type": "food",
+              "value": 3,
+              "description": "Found growing in the dark. Bitter. Safe, probably. Restores 3 HP. Has a faint glow that persists for some time.",
+              "food_effect": {
+                "hp": 3,
+                "glow": true
+              }
+            }
+          ],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "4,3,1": {
+        "pos": [
+          4,
+          3,
+          1
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            4,
+            2,
+            1
+          ],
+          "east": null,
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Hall of the Mural",
+          "description": "A vast hall covered in a painted mural. Impossibly vivid. It depicts the beginning of things.",
+          "special_event": "mural_hall",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "2,3,2": {
+        "pos": [
+          2,
+          3,
+          2
+        ],
+        "exits": {
+          "north": null,
+          "south": null,
+          "east": null,
+          "west": [
+            1,
+            3,
+            2
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Observatory",
+          "description": "The ceiling is open to the sky. This should be impossible. The stars visible through the opening are not the right stars.",
+          "special_event": "observatory",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "1,3,2": {
+        "pos": [
+          1,
+          3,
+          2
+        ],
+        "exits": {
+          "north": null,
+          "south": null,
+          "east": [
+            2,
+            3,
+            2
+          ],
+          "west": [
+            0,
+            3,
+            2
+          ],
+          "down": null,
+          "up": [
+            2,
+            1,
+            1
+          ]
+        },
+        "room_def": {
+          "name": "Staircase",
+          "description": "Stone steps lead upward. The light above is different from the light below.",
+          "special_event": null,
+          "items": [],
+          "enemies": [
+            {
+              "name": "Corrupted Scholar",
+              "hp": 18,
+              "attack": 7,
+              "defence": 2,
+              "tier": 2,
+              "gold": [
+                5,
+                12
+              ],
+              "loot_chance": 0.8,
+              "loot": "Priest's Journal",
+              "death_line": "Falls still. The book they were reading drops open. You will not look at the page.",
+              "special": "drain",
+              "flavour": "They came looking for answers. The answers found them first."
+            }
+          ],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "0,3,2": {
+        "pos": [
+          0,
+          3,
+          2
+        ],
+        "exits": {
+          "north": [
+            0,
+            4,
+            2
+          ],
+          "south": null,
+          "east": [
+            1,
+            3,
+            2
+          ],
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Bound One's Corner",
+          "description": "A figure against the wall, one hand pressing flat against the stone. Neither hostile nor entirely present.",
+          "special_event": "bound_one",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "0,4,2": {
+        "pos": [
+          0,
+          4,
+          2
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            0,
+            3,
+            2
+          ],
+          "east": [
+            1,
+            4,
+            2
+          ],
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Warden's Echo",
+          "description": "The room holds a presence — not a ghost, not a person. The strong memory of someone who stood here, felt very strongly about something, and did not ring the bell.",
+          "special_event": "serethan_echo",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "1,4,2": {
+        "pos": [
+          1,
+          4,
+          2
+        ],
+        "exits": {
+          "north": null,
+          "south": null,
+          "east": [
+            2,
+            4,
+            2
+          ],
+          "west": [
+            0,
+            4,
+            2
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Veythari Door",
+          "description": "A door of white stone etched with star-patterns. It glows from itself. The keyhole is shard-shaped.",
+          "special_event": "veythari_door",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "2,4,2": {
+        "pos": [
+          2,
+          4,
+          2
+        ],
+        "exits": {
+          "north": null,
+          "south": null,
+          "east": [
+            3,
+            4,
+            2
+          ],
+          "west": [
+            1,
+            4,
+            2
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Ossuary of the Near-Mortals",
+          "description": "Different from the human ossuary. These remains are Morvath and Veythari. Some wrapped in silver cloth that still holds light. Some in cloth that holds dark.",
+          "special_event": "near_mortal_ossuary",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "3,4,2": {
+        "pos": [
+          3,
+          4,
+          2
+        ],
+        "exits": {
+          "north": null,
+          "south": null,
+          "east": [
+            4,
+            4,
+            2
+          ],
+          "west": [
+            2,
+            4,
+            2
+          ],
+          "down": null,
+          "up": [
+            5,
+            2,
+            1
+          ]
+        },
+        "room_def": {
+          "name": "Staircase",
+          "description": "Stone steps lead upward. The light above is different from the light below.",
+          "special_event": null,
+          "items": [],
+          "enemies": [
+            {
+              "name": "Void Hound",
+              "hp": 22,
+              "attack": 8,
+              "defence": 2,
+              "tier": 2,
+              "gold": [
+                2,
+                8
+              ],
+              "loot_chance": 0.4,
+              "loot": "Void Salt",
+              "death_line": "It collapses inward. The space it occupied is briefly colder than the rest of the room.",
+              "special": "bleed",
+              "flavour": "Hunts by something other than smell. You cannot tell what. It always knows where you are."
+            }
+          ],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "4,4,2": {
+        "pos": [
+          4,
+          4,
+          2
+        ],
+        "exits": {
+          "north": null,
+          "south": null,
+          "east": [
+            5,
+            4,
+            2
+          ],
+          "west": [
+            3,
+            4,
+            2
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "Chamber of Orrath",
+          "description": "Darker than the others. The darkness has presence. A shape in the corner resolves into a figure.",
+          "special_event": "orrath_chamber",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "5,4,2": {
+        "pos": [
+          5,
+          4,
+          2
+        ],
+        "exits": {
+          "north": null,
+          "south": null,
+          "east": [
+            6,
+            4,
+            2
+          ],
+          "west": [
+            4,
+            4,
+            2
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Mirror Chamber",
+          "description": "Two surviving mirrors face each other. In the reflections: something that is not you.",
+          "special_event": "mirror_chamber",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "6,4,2": {
+        "pos": [
+          6,
+          4,
+          2
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            6,
+            3,
+            2
+          ],
+          "east": null,
+          "west": [
+            5,
+            4,
+            2
+          ],
+          "down": [
+            0,
+            1,
+            3
+          ],
+          "up": null
+        },
+        "room_def": {
+          "name": "Staircase",
+          "description": "Stone steps descend into the next level of the ruins. The air below is colder, or older, or both.",
+          "special_event": null,
+          "items": [],
+          "enemies": [
+            {
+              "name": "Goblin Archer",
+              "hp": 10,
+              "attack": 5,
+              "defence": 1,
+              "tier": 1,
+              "gold": [
+                1,
+                5
+              ],
+              "loot_chance": 0.4,
+              "loot": "Health Potion",
+              "death_line": "The archer topples from its perch.",
+              "special": null
+            },
+            {
+              "name": "Bandit",
+              "hp": 18,
+              "attack": 6,
+              "defence": 2,
+              "tier": 2,
+              "gold": [
+                3,
+                10
+              ],
+              "loot_chance": 0.9,
+              "loot": "Health Potion",
+              "death_line": "They slump forward. Coins scatter.",
+              "special": null
+            }
+          ],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "6,3,2": {
+        "pos": [
+          6,
+          3,
+          2
+        ],
+        "exits": {
+          "north": [
+            6,
+            4,
+            2
+          ],
+          "south": null,
+          "east": null,
+          "west": [
+            5,
+            3,
+            2
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Dragon-Hall",
+          "description": "A vault built for something immense. Something breathes at the far end. You feel its warmth from the doorway.",
+          "special_event": "dragon_hall",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "5,3,2": {
+        "pos": [
+          5,
+          3,
+          2
+        ],
+        "exits": {
+          "north": null,
+          "south": null,
+          "east": [
+            6,
+            3,
+            2
+          ],
+          "west": [
+            4,
+            3,
+            2
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Poison Garden",
+          "description": "Plants that should not be underground. Planted in rows. Tended. Several of them glow. Several of them are clearly toxic.",
+          "special_event": "poison_garden",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "4,3,2": {
+        "pos": [
+          4,
+          3,
+          2
+        ],
+        "exits": {
+          "north": null,
+          "south": null,
+          "east": [
+            5,
+            3,
+            2
+          ],
+          "west": [
+            3,
+            3,
+            2
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Warden's Archive",
+          "description": "A door bearing the eye-and-scales emblem of the Warden's office. Records wait behind it.",
+          "special_event": "wardens_archive",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "3,3,2": {
+        "pos": [
+          3,
+          3,
+          2
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            3,
+            2,
+            2
+          ],
+          "east": [
+            4,
+            3,
+            2
+          ],
+          "west": null,
+          "down": [
+            0,
+            2,
+            3
+          ],
+          "up": null
+        },
+        "room_def": {
+          "name": "Staircase",
+          "description": "Stone steps descend into the next level of the ruins. The air below is colder, or older, or both.",
+          "special_event": null,
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "3,2,2": {
+        "pos": [
+          3,
+          2,
+          2
+        ],
+        "exits": {
+          "north": [
+            3,
+            3,
+            2
+          ],
+          "south": null,
+          "east": [
+            4,
+            2,
+            2
+          ],
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "Chamber of the Near-Mortal",
+          "description": "Cleaner air. Silver-threaded script on the walls. A figure stands at the far end.",
+          "special_event": "sael_chamber",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "4,2,2": {
+        "pos": [
+          4,
+          2,
+          2
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            4,
+            1,
+            2
+          ],
+          "east": null,
+          "west": [
+            3,
+            2,
+            2
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Empty Throne",
+          "description": "A throne room, grand in ruin. The throne itself is intact. Something about it resists you.",
+          "special_event": "empty_throne",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "3,3,3": {
+        "pos": [
+          3,
+          3,
+          3
+        ],
+        "exits": {
+          "north": null,
+          "south": null,
+          "east": null,
+          "west": [
+            2,
+            3,
+            3
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Throne of Eldros-Verath",
+          "description": "A grand chamber, not ruined — arrested. Something happened here and everything stayed where it fell.",
+          "special_event": "throne_room",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": true,
+        "completed": false,
+        "state": {}
+      },
+      "2,3,3": {
+        "pos": [
+          2,
+          3,
+          3
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            2,
+            2,
+            3
+          ],
+          "east": [
+            3,
+            3,
+            3
+          ],
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Archive of Agreements",
+          "description": "Shelves of bound volumes. Every formal agreement ever made in Eldros. The final entry is not formatted like the others.",
+          "special_event": "archive_agreements",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "2,2,3": {
+        "pos": [
+          2,
+          2,
+          3
+        ],
+        "exits": {
+          "north": [
+            2,
+            3,
+            3
+          ],
+          "south": [
+            2,
+            1,
+            3
+          ],
+          "east": null,
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Hall of the Shattered Crown",
+          "description": "Cruder stonework than the rest — this room was built after the fall. The walls depict a war fought across three generations. At the centre: a stone plinth.",
+          "special_event": "hall_of_shattered_crown",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "2,1,3": {
+        "pos": [
+          2,
+          1,
+          3
+        ],
+        "exits": {
+          "north": [
+            2,
+            2,
+            3
+          ],
+          "south": null,
+          "east": [
+            3,
+            1,
+            3
+          ],
+          "west": null,
+          "down": [
+            3,
+            3,
+            4
+          ],
+          "up": null
+        },
+        "room_def": {
+          "name": "Staircase",
+          "description": "Stone steps descend into the next level of the ruins. The air below is colder, or older, or both.",
+          "special_event": null,
+          "items": [
+            {
+              "name": "Thar's Patience",
+              "type": "relic",
+              "value": 0,
+              "description": "A disc of grey stone, heavier than it looks, inscribed on both sides with the same character in a script older than Eldros. Halves all bleed damage received.",
+              "relic_effect": {
+                "type": "bleed_resist",
+                "value": 0.5
+              }
+            },
+            {
+              "name": "Health Potion",
+              "type": "consumable",
+              "value": 15,
+              "description": "Restores 15 HP."
+            }
+          ],
+          "enemies": [
+            {
+              "name": "Morvath Shade",
+              "hp": 30,
+              "attack": 11,
+              "defence": 4,
+              "tier": 3,
+              "gold": [
+                0,
+                8
+              ],
+              "loot_chance": 0.7,
+              "loot": "Morvath Eye",
+              "death_line": "The darkness it carried is released. The room is briefly, completely black. Then ordinary dark.",
+              "special": "drain",
+              "flavour": "A true Morvath — not corrupted, not summoned. One of the last. It is here because this is the darkness it chose."
+            }
+          ],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "3,1,3": {
+        "pos": [
+          3,
+          1,
+          3
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            3,
+            0,
+            3
+          ],
+          "east": null,
+          "west": [
+            2,
+            1,
+            3
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Sealed Sanctum",
+          "description": "A door of pale stone. No hinges, no handle. Ash-coloured runes that absorb light.",
+          "special_event": "sealed_sanctum",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "3,0,3": {
+        "pos": [
+          3,
+          0,
+          3
+        ],
+        "exits": {
+          "north": [
+            3,
+            1,
+            3
+          ],
+          "south": null,
+          "east": null,
+          "west": [
+            2,
+            0,
+            3
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Warden Bell",
+          "description": "A room with a large dark bell standing in the centre, covered in a thick layer of dust.",
+          "special_event": "warden_bell",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "2,0,3": {
+        "pos": [
+          2,
+          0,
+          3
+        ],
+        "exits": {
+          "north": null,
+          "south": null,
+          "east": [
+            3,
+            0,
+            3
+          ],
+          "west": [
+            1,
+            0,
+            3
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Veythari Sanctuary",
+          "description": "Silver light from the walls themselves. A pool of still water. A pale tree, leafless, its branches holding small cold lights that do not flicker.",
+          "special_event": "veythari_sanctuary",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "1,0,3": {
+        "pos": [
+          1,
+          0,
+          3
+        ],
+        "exits": {
+          "north": [
+            1,
+            1,
+            3
+          ],
+          "south": null,
+          "east": [
+            2,
+            0,
+            3
+          ],
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Blood Door",
+          "description": "A door of dark red stone, warm to the touch. The keyhole is organic in shape.",
+          "special_event": "blood_door",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "1,1,3": {
+        "pos": [
+          1,
+          1,
+          3
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            1,
+            0,
+            3
+          ],
+          "east": null,
+          "west": [
+            0,
+            1,
+            3
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Hall of the Nine",
+          "description": "A circular hall. Nine alcoves are set into the walls at equal intervals, each carved with a different symbol older than the empire. A mosaic of nine circles covers the floor. The golden centre has been pried out.",
+          "special_event": "hall_of_nine",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "0,1,3": {
+        "pos": [
+          0,
+          1,
+          3
+        ],
+        "exits": {
+          "north": [
+            0,
+            2,
+            3
+          ],
+          "south": [
+            0,
+            0,
+            3
+          ],
+          "east": [
+            1,
+            1,
+            3
+          ],
+          "west": null,
+          "down": null,
+          "up": [
+            6,
+            4,
+            2
+          ]
+        },
+        "room_def": {
+          "name": "Staircase",
+          "description": "Stone steps lead upward. The light above is different from the light below.",
+          "special_event": null,
+          "items": [
+            {
+              "name": "Hollow Coin",
+              "type": "relic",
+              "value": 0,
+              "description": "An Eldrosian coin with a hole drilled precisely through the centre. Looking through the hole at people shows what they are afraid of. Increases flee chance by 25%.",
+              "relic_effect": {
+                "type": "flee_bonus",
+                "value": 0.25
+              }
+            },
+            {
+              "name": "Ember Vial",
+              "type": "thrown",
+              "value": 18,
+              "description": "A sealed vial of captured flame. Throws for 18 fire damage. Single use.",
+              "throw_damage": 18,
+              "throw_effect": null
+            }
+          ],
+          "enemies": [
+            {
+              "name": "Blood Crawler",
+              "hp": 20,
+              "attack": 8,
+              "defence": 2,
+              "tier": 3,
+              "gold": [
+                0,
+                4
+              ],
+              "loot_chance": 0.5,
+              "loot": "Blood Amber",
+              "death_line": "Collapses into itself. A wet red stain.",
+              "special": "poison"
+            },
+            {
+              "name": "Hollow Knight",
+              "hp": 25,
+              "attack": 9,
+              "defence": 6,
+              "tier": 3,
+              "gold": [
+                3,
+                10
+              ],
+              "loot_chance": 0.6,
+              "loot": "Warden's Key",
+              "death_line": "The armour empties. Nothing was inside. Or nothing remains.",
+              "special": "fear"
+            }
+          ],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "0,0,3": {
+        "pos": [
+          0,
+          0,
+          3
+        ],
+        "exits": {
+          "north": [
+            0,
+            1,
+            3
+          ],
+          "south": null,
+          "east": null,
+          "west": null,
+          "down": [
+            2,
+            1,
+            4
+          ],
+          "up": null
+        },
+        "room_def": {
+          "name": "Staircase",
+          "description": "Stone steps descend into the next level of the ruins. The air below is colder, or older, or both.",
+          "special_event": null,
+          "items": [],
+          "enemies": [
+            {
+              "name": "Feral Hound",
+              "hp": 16,
+              "attack": 6,
+              "defence": 2,
+              "tier": 1,
+              "gold": [
+                0,
+                2
+              ],
+              "loot_chance": 0.3,
+              "loot": "Bloodmoss Tincture",
+              "death_line": "The hound drops mid-lunge.",
+              "special": null
+            }
+          ],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "0,2,3": {
+        "pos": [
+          0,
+          2,
+          3
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            0,
+            1,
+            3
+          ],
+          "east": [
+            1,
+            2,
+            3
+          ],
+          "west": null,
+          "down": null,
+          "up": [
+            3,
+            3,
+            2
+          ]
+        },
+        "room_def": {
+          "name": "Staircase",
+          "description": "Stone steps lead upward. The light above is different from the light below.",
+          "special_event": null,
+          "items": [
+            {
+              "name": "Health Potion",
+              "type": "consumable",
+              "value": 15,
+              "description": "Restores 15 HP."
+            }
+          ],
+          "enemies": [
+            {
+              "name": "Bandit Captain",
+              "hp": 26,
+              "attack": 8,
+              "defence": 3,
+              "tier": 2,
+              "gold": [
+                6,
+                15
+              ],
+              "loot_chance": 0.9,
+              "loot": "Strong Tonic",
+              "death_line": "The captain falls. Their crew — if any — are no longer a crew.",
+              "special": null
+            }
+          ],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "1,2,3": {
+        "pos": [
+          1,
+          2,
+          3
+        ],
+        "exits": {
+          "north": [
+            1,
+            3,
+            3
+          ],
+          "south": null,
+          "east": null,
+          "west": [
+            0,
+            2,
+            3
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Well of Stars",
+          "description": "No ceiling — or rather, a ceiling that is open sky: stars visible, unmoving, underground.",
+          "special_event": "astral_well_hint",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "1,3,3": {
+        "pos": [
+          1,
+          3,
+          3
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            1,
+            2,
+            3
+          ],
+          "east": null,
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "Talarion's Room",
+          "description": "A scholar's room — desk, shelves, the remnants of a life spent writing. Someone worked here for a very long time and left deliberately.",
+          "special_event": "talarion_room",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "3,2,4": {
+        "pos": [
+          3,
+          2,
+          4
+        ],
+        "exits": {
+          "north": null,
+          "south": null,
+          "east": [
+            4,
+            2,
+            4
+          ],
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Ritual Chamber",
+          "description": "A circular room with a domed ceiling. In the centre: a stone dais, carved with the nine-circle diagram of the wells. The dais has a hollow at its centre — shaped precisely like a collection of fragments pressed together.",
+          "special_event": "ritual_chamber",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": true,
+        "completed": false,
+        "state": {}
+      },
+      "4,2,4": {
+        "pos": [
+          4,
+          2,
+          4
+        ],
+        "exits": {
+          "north": [
+            4,
+            3,
+            4
+          ],
+          "south": null,
+          "east": null,
+          "west": [
+            3,
+            2,
+            4
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Tilted Room",
+          "description": "The floor slopes toward a drain. Not dramatically — but everything has gathered at the low end over centuries. You find yourself checking your pockets.",
+          "special_event": null,
+          "items": [
+            {
+              "name": "Iron Shield",
+              "type": "armour",
+              "value": 5,
+              "description": "Heavy and dependable."
+            },
+            {
+              "name": "Health Potion",
+              "type": "consumable",
+              "value": 15,
+              "description": "Restores 15 HP."
+            }
+          ],
+          "enemies": [
+            {
+              "name": "Pit Crawler",
+              "hp": 20,
+              "attack": 6,
+              "defence": 3,
+              "tier": 2,
+              "gold": [
+                1,
+                4
+              ],
+              "loot_chance": 0.4,
+              "loot": "Bloodmoss Tincture",
+              "death_line": "It retreats into its pit, fatally.",
+              "special": "bleed"
+            }
+          ],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "4,3,4": {
+        "pos": [
+          4,
+          3,
+          4
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            4,
+            2,
+            4
+          ],
+          "east": null,
+          "west": [
+            3,
+            3,
+            4
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Chamber of the Agreement",
+          "description": "The air here is wrong. Not cold — wrong. As though the air itself remembers something that happened in this room and cannot stop remembering it. On the floor: a perfect circle, scorched into the stone, that no amount of time has faded.",
+          "special_event": "chamber_of_agreement",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "3,3,4": {
+        "pos": [
+          3,
+          3,
+          4
+        ],
+        "exits": {
+          "north": null,
+          "south": null,
+          "east": [
+            4,
+            3,
+            4
+          ],
+          "west": [
+            2,
+            3,
+            4
+          ],
+          "down": null,
+          "up": [
+            2,
+            1,
+            3
+          ]
+        },
+        "room_def": {
+          "name": "Staircase",
+          "description": "Stone steps lead upward. The light above is different from the light below.",
+          "special_event": null,
+          "items": [
+            {
+              "name": "Dried Cave Mushroom",
+              "type": "food",
+              "value": 3,
+              "description": "Found growing in the dark. Bitter. Safe, probably. Restores 3 HP. Has a faint glow that persists for some time.",
+              "food_effect": {
+                "hp": 3,
+                "glow": true
+              }
+            }
+          ],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "2,3,4": {
+        "pos": [
+          2,
+          3,
+          4
+        ],
+        "exits": {
+          "north": null,
+          "south": null,
+          "east": [
+            3,
+            3,
+            4
+          ],
+          "west": [
+            1,
+            3,
+            4
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Atraxis Scar",
+          "description": "The floor is wrong. A red-black discolouration radiates from a central point in perfect circles. Something came through here. The air is present in a way air is not usually present.",
+          "special_event": "atraxis_scar",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "1,3,4": {
+        "pos": [
+          1,
+          3,
+          4
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            1,
+            2,
+            4
+          ],
+          "east": [
+            2,
+            3,
+            4
+          ],
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Sealed Sanctum",
+          "description": "A door of pale stone. No hinges, no handle. Ash-coloured runes that absorb light.",
+          "special_event": "sealed_sanctum",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "1,2,4": {
+        "pos": [
+          1,
+          2,
+          4
+        ],
+        "exits": {
+          "north": [
+            1,
+            3,
+            4
+          ],
+          "south": null,
+          "east": [
+            2,
+            2,
+            4
+          ],
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Deep Sleeper's Chamber",
+          "description": "The deepest room. Something vast and old has arranged itself here. The air breathes very slowly. It is awake, in its way.",
+          "special_event": "deep_sleeper",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "2,2,4": {
+        "pos": [
+          2,
+          2,
+          4
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            2,
+            1,
+            4
+          ],
+          "east": null,
+          "west": [
+            1,
+            2,
+            4
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Well Chamber",
+          "description": "The stairs end here. A circular chamber of absolute silence. In its centre: a well of solid darkness.",
+          "special_event": "void_well",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": true,
+        "completed": false,
+        "state": {}
+      },
+      "2,1,4": {
+        "pos": [
+          2,
+          1,
+          4
+        ],
+        "exits": {
+          "north": [
+            2,
+            2,
+            4
+          ],
+          "south": null,
+          "east": [
+            3,
+            1,
+            4
+          ],
+          "west": null,
+          "down": null,
+          "up": [
+            0,
+            0,
+            3
+          ]
+        },
+        "room_def": {
+          "name": "Staircase",
+          "description": "Stone steps lead upward. The light above is different from the light below.",
+          "special_event": null,
+          "items": [
+            {
+              "name": "Thar's Patience",
+              "type": "relic",
+              "value": 0,
+              "description": "A disc of grey stone, heavier than it looks, inscribed on both sides with the same character in a script older than Eldros. Halves all bleed damage received.",
+              "relic_effect": {
+                "type": "bleed_resist",
+                "value": 0.5
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "name": "Void Priest",
+              "hp": 26,
+              "attack": 12,
+              "defence": 3,
+              "tier": 3,
+              "gold": [
+                6,
+                14
+              ],
+              "loot_chance": 0.9,
+              "loot": "Cultist's Sigil",
+              "death_line": "Falls mid-chant. The word it was saying is not completed. You do not want to know what word.",
+              "special": "drain",
+              "flavour": "Calls on Atraxis by name. The name has partial effect. The drain attacks feel intentional in a way other drains do not."
+            }
+          ],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "3,1,4": {
+        "pos": [
+          3,
+          1,
+          4
+        ],
+        "exits": {
+          "north": null,
+          "south": null,
+          "east": [
+            4,
+            1,
+            4
+          ],
+          "west": [
+            2,
+            1,
+            4
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Gallery of Faces",
+          "description": "Carved faces at eye level — dozens, each different, each looking inward. All eyes closed. When you reach the centre, the faces behind you have their eyes open.",
+          "special_event": null,
+          "items": [
+            {
+              "name": "Health Potion",
+              "type": "consumable",
+              "value": 15,
+              "description": "Restores 15 HP."
+            }
+          ],
+          "enemies": [
+            {
+              "name": "Shard-Touched Soldier",
+              "hp": 24,
+              "attack": 9,
+              "defence": 3,
+              "tier": 2,
+              "gold": [
+                4,
+                10
+              ],
+              "loot_chance": 0.5,
+              "loot": "Fragment of the Seal",
+              "death_line": "The Godshard fragment in their chest dims and goes dark. It was keeping them upright.",
+              "special": "bleed",
+              "flavour": "A Godshard fragment is embedded in their sternum. It was not put there willingly. The fragment radiates something that makes your own shard pulse uncomfortably."
+            }
+          ],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "4,1,4": {
+        "pos": [
+          4,
+          1,
+          4
+        ],
+        "exits": {
+          "north": null,
+          "south": [
+            4,
+            0,
+            4
+          ],
+          "east": null,
+          "west": [
+            3,
+            1,
+            4
+          ],
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "Chamber",
+          "description": "The ceiling here is covered in carved stars. The constellations are not ones you recognise.",
+          "special_event": null,
+          "items": [
+            {
+              "name": "Needle of Vaethar",
+              "type": "weapon",
+              "value": 10,
+              "description": "A thin blade. Something inside it hums when near the Void-well."
+            }
+          ],
+          "enemies": [
+            {
+              "name": "Bandit Captain",
+              "hp": 26,
+              "attack": 8,
+              "defence": 3,
+              "tier": 2,
+              "gold": [
+                6,
+                15
+              ],
+              "loot_chance": 0.9,
+              "loot": "Strong Tonic",
+              "death_line": "The captain falls. Their crew — if any — are no longer a crew.",
+              "special": null
+            }
+          ],
+          "ambient": "A soft glow pulses from somewhere to the north, then is gone."
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "4,0,4": {
+        "pos": [
+          4,
+          0,
+          4
+        ],
+        "exits": {
+          "north": [
+            4,
+            1,
+            4
+          ],
+          "south": null,
+          "east": null,
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Deep Market",
+          "description": "A figure behind a low table. No candles — the stock is lit by something the items themselves emit. They do not look up when you enter.",
+          "special_event": "black_market",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      },
+      "4,1,2": {
+        "pos": [
+          4,
+          1,
+          2
+        ],
+        "exits": {
+          "north": [
+            4,
+            2,
+            2
+          ],
+          "south": null,
+          "east": null,
+          "west": null,
+          "down": null,
+          "up": null
+        },
+        "room_def": {
+          "name": "The Hollow Wall",
+          "description": "A room with one sealed wall — perfectly flat, no seams. A circular indentation at its centre.",
+          "special_event": "hollow_stone_room",
+          "items": [],
+          "enemies": [],
+          "ambient": null
+        },
+        "visited": false,
+        "sealed": false,
+        "completed": false,
+        "state": {}
+      }
+    }
+  },
+  "map": {
+    "visited": {
+      "5,2,0": "The Shrine of Eon",
+      "5,1,0": "Staircase",
+      "6,1,0": "The Shard-Seeker Captain"
+    },
+    "connections": [
+      [
+        [
+          5,
+          2,
+          0
+        ],
+        [
+          5,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          5,
+          1,
+          0
+        ],
+        [
+          6,
+          1,
+          0
+        ]
+      ]
+    ]
+  },
+  "reputation": {
+    "scholars": 0,
+    "void_touched": 0,
+    "seekers": 0
+  }
+}

@@ -1,0 +1,444 @@
+{
+  "name": "Miodus",
+  "max_hp": 125,
+  "hp": 125,
+  "attack": 16,
+  "defence": 8,
+  "gold": 430,
+  "poisoned": false,
+  "cursed": false,
+  "void_ward": false,
+  "visited_rooms": 19,
+  "depth": 0,
+  "descent": 2,
+  "inventory": [
+    {
+      "name": "Candle",
+      "type": "artefact",
+      "value": 0,
+      "description": "Flickers in still air."
+    },
+    {
+      "name": "Codex of the First Age",
+      "type": "lore",
+      "value": 0,
+      "description": "A heavy book bound in something that is not leather. The text inside appears to be nonsense — letters in the right script but in the wrong order. Something about it resists being read directly."
+    },
+    {
+      "name": "Ashen Tablet",
+      "type": "lore",
+      "value": 0,
+      "description": "Flat pale stone, dense Eldrosian script. One passage is legible."
+    },
+    {
+      "name": "Imperial Edict",
+      "type": "lore",
+      "value": 0,
+      "description": "A formal declaration on pressed material, embossed with the Eldrosian serpent-sun emblem."
+    },
+    {
+      "name": "Rolled Parchment",
+      "type": "lore",
+      "value": 0,
+      "description": "Rolled and sealed with black wax. The wax is already cracked."
+    },
+    {
+      "name": "Strong Tonic",
+      "type": "consumable",
+      "value": 25,
+      "description": "A thick, bitter draught. Restores 25 HP."
+    },
+    {
+      "name": "Warden's Key",
+      "type": "key",
+      "value": 0,
+      "description": "A long iron key stamped with the Warden's eye-and-scales emblem. Official issue."
+    },
+    {
+      "name": "Antidote",
+      "type": "consumable",
+      "value": 0,
+      "description": "Cures poison."
+    },
+    {
+      "name": "Rolled Parchment",
+      "type": "lore",
+      "value": 0,
+      "description": "Rolled and sealed with black wax. The wax is already cracked."
+    },
+    {
+      "name": "Ember Flask",
+      "type": "consumable",
+      "value": 20,
+      "description": "Captured flame. Burns going down. Restores 20 HP."
+    },
+    {
+      "name": "Rolled Parchment",
+      "type": "lore",
+      "value": 0,
+      "description": "Rolled and sealed with black wax. The wax is already cracked."
+    },
+    {
+      "name": "Codex of the First Age",
+      "type": "artefact",
+      "value": 0,
+      "description": "A heavy book bound in something that is not leather."
+    },
+    {
+      "name": "Voidhardened Vest",
+      "type": "armour",
+      "value": 10,
+      "description": "Treated with something from deep below. Resists drain."
+    },
+    {
+      "name": "Vein-Sealer",
+      "type": "consumable",
+      "value": 50,
+      "description": "Restores 50 HP. Hardens wounds against reopening."
+    },
+    {
+      "name": "Rolled Parchment",
+      "type": "lore",
+      "value": 0,
+      "description": "Rolled and sealed with black wax. The wax is already cracked."
+    },
+    {
+      "name": "Fragment of the Seal",
+      "type": "artefact",
+      "value": 0,
+      "description": "A shard of the Shattered Crown's sealing mechanism. It vibrates faintly when near a Godshard. Imperial goldsmiths made these — their names are on the back in tiny script."
+    },
+    {
+      "name": "Shard-Seeker's Map",
+      "type": "lore",
+      "value": 0,
+      "description": "A rough map of the upper ruins, annotated in a mercenary's hand. Three locations are circled and labelled: SHARD? SHARD? SHARD?. All three circles are crossed out."
+    },
+    {
+      "name": "Rolled Parchment",
+      "type": "lore",
+      "value": 0,
+      "description": "Rolled and sealed with black wax. The wax is already cracked."
+    },
+    {
+      "name": "Bloodmoss Tincture",
+      "type": "consumable",
+      "value": 10,
+      "description": "Restores 10 HP."
+    },
+    {
+      "name": "Third Godshard",
+      "type": "artefact",
+      "value": 0,
+      "description": "A third fragment. Holding it alongside the others, you feel something beginning to cohere — something that was once whole recognising what it was."
+    },
+    {
+      "name": "Crystal Mirror",
+      "type": "artefact",
+      "value": 0,
+      "description": "Shows something not quite you. The reflection moves a fraction late."
+    },
+    {
+      "name": "Cultist's Sigil",
+      "type": "artefact",
+      "value": 0,
+      "description": "A disc of dark metal stamped with a symbol: a circle with a crack through it. It is warm. It should not be warm."
+    },
+    {
+      "name": "Void Salt",
+      "type": "consumable",
+      "value": 0,
+      "description": "Wards vs drain for one fight."
+    },
+    {
+      "name": "Rolled Parchment",
+      "type": "lore",
+      "value": 0,
+      "description": "Rolled and sealed with black wax. The wax is already cracked."
+    },
+    {
+      "name": "Talarion's Chronicle",
+      "type": "lore",
+      "value": 0,
+      "description": "A thick, handwritten volume. The author gives his name on the first page: Talarion. The last line reads: 'And so I tell it, because someone must.'"
+    },
+    {
+      "name": "Rolled Parchment",
+      "type": "lore",
+      "value": 0,
+      "description": "Rolled and sealed with black wax. The wax is already cracked."
+    },
+    {
+      "name": "Antidote",
+      "type": "consumable",
+      "value": 0,
+      "description": "Cures poison."
+    },
+    {
+      "name": "Ashen Tablet",
+      "type": "lore",
+      "value": 0,
+      "description": "Flat pale stone, dense Eldrosian script. One passage is legible."
+    },
+    {
+      "name": "Imperial Edict",
+      "type": "lore",
+      "value": 0,
+      "description": "A formal declaration on pressed material, embossed with the Eldrosian serpent-sun emblem."
+    },
+    {
+      "name": "Health Potion",
+      "type": "consumable",
+      "value": 15,
+      "description": "Restores 15 HP."
+    },
+    {
+      "name": "Needle of Vaethar",
+      "type": "weapon",
+      "value": 18,
+      "description": "A thin blade. Something inside it hums when near the Void-well."
+    },
+    {
+      "name": "Bloodmoss Tincture",
+      "type": "consumable",
+      "value": 10,
+      "description": "Dark paste on wounds. Restores 10 HP."
+    },
+    {
+      "name": "Second Godshard",
+      "type": "artefact",
+      "value": 0,
+      "description": "A second fragment of Vaethar's divided form. It resonates with the first. Together they produce a frequency that is almost a chord."
+    },
+    {
+      "name": "Rolled Parchment",
+      "type": "lore",
+      "value": 0,
+      "description": "Rolled and sealed with black wax. The wax is already cracked."
+    },
+    {
+      "name": "Rolled Parchment",
+      "type": "lore",
+      "value": 0,
+      "description": "Rolled and sealed with black wax. The wax is already cracked."
+    },
+    {
+      "name": "Vein-Sealer",
+      "type": "consumable",
+      "value": 50,
+      "description": "Restores 50 HP. Hardens wounds against reopening."
+    },
+    {
+      "name": "Rolled Parchment",
+      "type": "lore",
+      "value": 0,
+      "description": "Rolled and sealed with black wax. The wax is already cracked."
+    },
+    {
+      "name": "Ember Flask",
+      "type": "consumable",
+      "value": 20,
+      "description": "Captured flame. Burns going down. Restores 20 HP."
+    },
+    {
+      "name": "Scale Armour",
+      "type": "armour",
+      "value": 6,
+      "description": "Worked from something's hide. Darker than iron, warmer than stone."
+    },
+    {
+      "name": "Health Potion",
+      "type": "consumable",
+      "value": 15,
+      "description": "Restores 15 HP."
+    },
+    {
+      "name": "Bloodmoss Tincture",
+      "type": "consumable",
+      "value": 10,
+      "description": "Dark paste on wounds. Restores 10 HP."
+    },
+    {
+      "name": "Void Shard",
+      "type": "artefact",
+      "value": 0,
+      "description": "A sliver of absolute dark. Cold beyond cold. It should not exist."
+    },
+    {
+      "name": "Antidote",
+      "type": "consumable",
+      "value": 0,
+      "description": "Cures poison."
+    },
+    {
+      "name": "Relic Coin",
+      "type": "artefact",
+      "value": 0,
+      "description": "Engraved with an erased face. Inscription: ELDROS PRIMA."
+    }
+  ],
+  "equipped_weapon": "Needle of Vaethar",
+  "equipped_armour": "Voidhardened Vest",
+  "flags": [
+    "agreement_chamber_inscription",
+    "altar_myrrakhel_hint",
+    "arukiel_memory",
+    "candle_agreement_chamber",
+    "candle_crown_hall",
+    "candle_hall_of_nine",
+    "candle_inscription_secret",
+    "candle_mural_secret",
+    "confrontation_done",
+    "dawn_shard_nine",
+    "decoded_codex",
+    "fought_cultist",
+    "found_audience_protocols",
+    "found_blank_book",
+    "found_chamber_of_agreement",
+    "found_demongod_etymology",
+    "found_hall_of_nine",
+    "found_histories",
+    "found_mural",
+    "found_near_mortal_book",
+    "found_sealed_sanctum",
+    "found_shattered_crown_hall",
+    "found_third_godshard",
+    "found_throne_room",
+    "found_thrys_survey",
+    "found_tolos_memorial",
+    "found_tolos_plinth",
+    "found_vaethar_book",
+    "found_vault_door",
+    "found_veythari_archive",
+    "found_veythari_sanctuary",
+    "found_wells_book",
+    "found_ysena",
+    "full_truth_known",
+    "gave_orrath_gift",
+    "gave_shard",
+    "godshard_offered_shrine",
+    "heard_dissonance",
+    "heard_listening_room",
+    "hollow_stone_door",
+    "inscription_unmade",
+    "inscription_vaethar",
+    "inscription_variation",
+    "ishak_alcove",
+    "kelamaris_alcove",
+    "kindrael_alcove",
+    "knows_ritual_phrase",
+    "looked_void_well",
+    "loria_alcove",
+    "met_orrath",
+    "met_sael",
+    "mirror_crystal_secret",
+    "mirror_figure",
+    "mirror_inscription_secret",
+    "mirror_room_vision",
+    "mirror_scholar_vision",
+    "mirror_throne_room",
+    "myrrakhel_alcove",
+    "nine_completed",
+    "obtained_ashen_key",
+    "obtained_ashen_tablet",
+    "obtained_crystal_mirror",
+    "obtained_dawn_shard",
+    "obtained_godshard_1",
+    "obtained_godshard_3",
+    "obtained_hollow_stone",
+    "obtained_imperial_edict",
+    "obtained_rolled_parchment",
+    "obtained_starlight_key",
+    "obtained_starlight_shard",
+    "obtained_vaethars_tear",
+    "obtained_void_shard",
+    "orrath_dravennis",
+    "orrath_maelvyr",
+    "orrath_myrrakhel",
+    "orrath_told_vaelan",
+    "orrath_vaethar",
+    "ossuary_name",
+    "ossuary_secret_passage",
+    "prisoner_dravennis",
+    "prisoner_told_eldros",
+    "prisoner_told_gods",
+    "prisoner_told_vaelan",
+    "prisoner_told_well",
+    "read_ashen_tablet",
+    "read_imperial_edict",
+    "read_parchment_wells",
+    "read_shard_map",
+    "read_shattered_crown_mural",
+    "read_talarion_chronicle",
+    "read_wars_record",
+    "refused_the_offer",
+    "sael_dravennis_connection",
+    "sael_myrrakhel",
+    "sael_spoke_maelvyr",
+    "sael_told_vaelan",
+    "sael_told_wells",
+    "sael_vaethar",
+    "sanctuary_mirror_figure",
+    "sanctuary_pool_vision",
+    "sanctuary_sael_tree",
+    "sanctum_vaelan_detail",
+    "sat_in_dawn_light",
+    "saw_sealed_window",
+    "seal_restored",
+    "shard_returned",
+    "spoke_maelvyr_shrine",
+    "spoke_vaethar_shrine",
+    "spoke_ysena_shrine",
+    "stood_in_circle",
+    "studied_reflection_walls",
+    "talarion_room_found",
+    "thalas_alcove",
+    "thar_alcove",
+    "throne_carvings",
+    "throne_full_context",
+    "took_deeper_staircase",
+    "unmade_spoke_its_nature",
+    "unmade_spoke_maelvyr",
+    "vaethar_inscription",
+    "vaethar_tear_offered",
+    "vastino_alcove",
+    "void_well_vaethar",
+    "ysena_alcove"
+  ],
+  "secrets_spoken": [
+    "atheron",
+    "maelvyr",
+    "vaethar"
+  ],
+  "map": {
+    "x": 0,
+    "y": 1,
+    "visited": {
+      "0,-1": "Chamber",
+      "0,0": "The Hall of the Ni",
+      "0,1": "The Well of Stars"
+    },
+    "connections": [
+      [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    ]
+  }
+}

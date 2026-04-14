@@ -1,0 +1,299 @@
+{
+  "admin": {
+    "gold": 9999,
+    "max_hp": 200,
+    "hp": 100,
+    "attack": 30,
+    "defence": 22,
+    "flags": [
+      "altar_myrrakhel_hint",
+      "atheron_named",
+      "atheron_woke_and_spared",
+      "candle_mural_secret",
+      "found_blank_book",
+      "found_blood_door",
+      "found_library_collapse",
+      "found_mural",
+      "found_sealed_sanctum",
+      "found_vault_door",
+      "found_veythari_archive",
+      "full_truth_known",
+      "heard_dravennis",
+      "heard_listening_room",
+      "inscription_myrrakhel",
+      "inscription_unmade",
+      "inscription_variation",
+      "looked_void_well",
+      "merchant_godshards",
+      "merchant_myrrakhel",
+      "merchant_told_wells",
+      "met_orrath",
+      "met_sael",
+      "mirror_crystal_secret",
+      "mirror_figure",
+      "orrath_dravennis",
+      "orrath_maelvyr",
+      "orrath_myrrakhel",
+      "orrath_told_vaelan",
+      "orrath_vaethar",
+      "ossuary_name",
+      "prisoner_dravennis",
+      "prisoner_told_eldros",
+      "prisoner_told_gods",
+      "prisoner_told_vaelan",
+      "prisoner_told_well",
+      "read_ashen_tablet",
+      "read_charred_ledger",
+      "read_parchment_wells",
+      "sael_dravennis_connection",
+      "sael_myrrakhel",
+      "sael_spoke_maelvyr",
+      "sael_told_vaelan",
+      "sael_told_wells",
+      "sael_vaethar",
+      "shard_returned",
+      "spoke_atheron_shrine",
+      "spoke_maelvyr_shrine",
+      "spoke_myrrakhel_shrine",
+      "spoke_unmade",
+      "studied_atheron",
+      "throne_vision",
+      "touched_astral_water",
+      "void_well_myrrakhel",
+      "void_well_witnessed"
+    ],
+    "inventory": [
+      {
+        "name": "Rusty Sword",
+        "type": "weapon",
+        "value": 3,
+        "description": "A blade worn by centuries. Still cuts."
+      },
+      {
+        "name": "Iron Sword",
+        "type": "weapon",
+        "value": 6,
+        "description": "Standard-issue steel. Reliable."
+      },
+      {
+        "name": "Shadow Dagger",
+        "type": "weapon",
+        "value": 5,
+        "description": "Light and fast. Made for the dark."
+      },
+      {
+        "name": "Eldrosian Spear",
+        "type": "weapon",
+        "value": 8,
+        "description": "Etched with imperial Eldrosian sigils. Old, but perfectly balanced."
+      },
+      {
+        "name": "Bone Hatchet",
+        "type": "weapon",
+        "value": 4,
+        "description": "Crudely made from something's femur. Effective at close range."
+      },
+      {
+        "name": "Serrated Blade",
+        "type": "weapon",
+        "value": 7,
+        "description": "Notched edges designed to tear. Whoever made this was not kind."
+      },
+      {
+        "name": "Wooden Shield",
+        "type": "armour",
+        "value": 2,
+        "description": "Splinters, but holds."
+      },
+      {
+        "name": "Iron Shield",
+        "type": "armour",
+        "value": 5,
+        "description": "Heavy and dependable."
+      },
+      {
+        "name": "Leather Armour",
+        "type": "armour",
+        "value": 3,
+        "description": "Flexible protection."
+      },
+      {
+        "name": "Scale Armour",
+        "type": "armour",
+        "value": 6,
+        "description": "Worked from something's hide. Darker than iron, warmer than stone."
+      },
+      {
+        "name": "Chain Vest",
+        "type": "armour",
+        "value": 4,
+        "description": "Rings of iron, well-kept despite the age of this place."
+      },
+      {
+        "name": "Eldrosian Plate",
+        "type": "armour",
+        "value": 8,
+        "description": "Imperial-issue chest armour. The emblem has been scraped off deliberately."
+      },
+      {
+        "name": "Health Potion",
+        "type": "consumable",
+        "value": 15,
+        "description": "Restores 15 HP."
+      },
+      {
+        "name": "Antidote",
+        "type": "consumable",
+        "value": 0,
+        "description": "Cures poison."
+      },
+      {
+        "name": "Ember Flask",
+        "type": "consumable",
+        "value": 20,
+        "description": "Captured flame. Burns the throat going down. Restores 20 HP."
+      },
+      {
+        "name": "Bloodmoss Tincture",
+        "type": "consumable",
+        "value": 10,
+        "description": "A dark paste applied to wounds. Restores 10 HP. Tastes like iron."
+      },
+      {
+        "name": "Clarity Draught",
+        "type": "consumable",
+        "value": 0,
+        "description": "Clears the mind. Removes curses and mental debuffs."
+      },
+      {
+        "name": "Candle",
+        "type": "artefact",
+        "value": 0,
+        "description": "Flickers in still air. Something about it resists being snuffed."
+      },
+      {
+        "name": "Relic Coin",
+        "type": "artefact",
+        "value": 0,
+        "description": "Engraved with a face you do not recognise. Inscription: ELDROS PRIMA."
+      },
+      {
+        "name": "Crystal Mirror",
+        "type": "artefact",
+        "value": 0,
+        "description": "Shows something not quite you. The reflection moves a fraction late."
+      },
+      {
+        "name": "Old Crown",
+        "type": "artefact",
+        "value": 0,
+        "description": "Heavy. Meant for a larger head. The metal is unlike anything you know."
+      },
+      {
+        "name": "Void Shard",
+        "type": "artefact",
+        "value": 0,
+        "description": "A sliver of absolute dark. Cold beyond cold. It should not exist."
+      },
+      {
+        "name": "Starlight Shard",
+        "type": "artefact",
+        "value": 0,
+        "description": "A fragment that holds its own faint glow. Hums very quietly."
+      },
+      {
+        "name": "Broken Seal",
+        "type": "artefact",
+        "value": 0,
+        "description": "Half of a stone seal. The surviving half shows a serpent eating the sun."
+      },
+      {
+        "name": "Dragon Scale",
+        "type": "artefact",
+        "value": 0,
+        "description": "Larger than your head. Black as a collapsed star. Warm to the touch."
+      },
+      {
+        "name": "Blood Amber",
+        "type": "artefact",
+        "value": 0,
+        "description": "A deep red gem, clouded from within. Something moves inside it slowly."
+      },
+      {
+        "name": "Hollow Stone",
+        "type": "artefact",
+        "value": 0,
+        "description": "A smooth stone with a hole through its centre. Perfectly, impossibly round. Looking through the hole shows a different room than the one you are in."
+      },
+      {
+        "name": "Dawn Shard",
+        "type": "artefact",
+        "value": 0,
+        "description": "A chip of pale orange stone that produces its own warmth. It smells faintly of something just before sunrise."
+      },
+      {
+        "name": "Warden's Seal",
+        "type": "artefact",
+        "value": 0,
+        "description": "A flat disc of dark metal bearing an eye above a set of scales. The emblem of an Eldrosian office \u2014 you do not know which one."
+      },
+      {
+        "name": "Ashen Tablet",
+        "type": "lore",
+        "value": 0,
+        "description": "A flat tablet of pale stone in dense Eldrosian script. One passage is legible."
+      },
+      {
+        "name": "Charred Ledger",
+        "type": "lore",
+        "value": 0,
+        "description": "A ledger, burned at the edges. The surviving pages list names \u2014 all crossed out with the same black ink."
+      },
+      {
+        "name": "Rolled Parchment",
+        "type": "lore",
+        "value": 0,
+        "description": "Rolled tight and sealed with black wax. The wax is already cracked."
+      },
+      {
+        "name": "Iron Key",
+        "type": "key",
+        "value": 0,
+        "description": "Heavy iron. Teeth worn smooth. Opens something down here."
+      },
+      {
+        "name": "Ashen Key",
+        "type": "key",
+        "value": 0,
+        "description": "Forged from compacted ash. Should crumble \u2014 does not. Writing on the bow: a word in a language older than Eldros."
+      },
+      {
+        "name": "Starlight Key",
+        "type": "key",
+        "value": 0,
+        "description": "Appears to be made of solidified moonlight. Glows faintly in the dark."
+      },
+      {
+        "name": "Blood Key",
+        "type": "key",
+        "value": 0,
+        "description": "Deep red, almost maroon. Warm to the touch in a way that is not comforting. The teeth are shaped like no lock you have ever seen."
+      }
+    ],
+    "eq_weapon": "Eldrosian Spear",
+    "eq_armour": "Eldrosian Plate",
+    "visited_rooms": 0
+  },
+  "Miodus": {
+    "gold": 0,
+    "max_hp": 40,
+    "hp": 20,
+    "attack": 6,
+    "defence": 2,
+    "flags": [],
+    "inventory": [],
+    "eq_weapon": null,
+    "eq_armour": null,
+    "visited_rooms": 0
+  }
+}
